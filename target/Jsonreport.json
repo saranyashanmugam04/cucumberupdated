@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "display welcome message",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1322300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "application displaying welcome message",
+            "match": {
+              "location": "feature1Class.application_displaying_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "validate login functionality",
+        "description": "",
+        "id": "purchase-products-in-online;validate-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8035362400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user opens login application",
+            "match": {
+              "location": "feature1Class.user_opens_login_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104806701,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "entering username as \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 21
+                }
+              ],
+              "location": "feature1Class.entering_username_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86885500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "entering password as \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 21
+                }
+              ],
+              "location": "feature1Class.entering_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17141079500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click Submit",
+            "match": {
+              "location": "feature1Class.click_Submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20635800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate login success",
+            "match": {
+              "location": "feature1Class.validate_login_success()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "display welcome message",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 178299,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "application displaying welcome message",
+            "match": {
+              "location": "feature1Class.application_displaying_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Search products",
+        "description": "",
+        "id": "purchase-products-in-online;search-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 206500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user entering search product as \"iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone\"",
+                  "offset": 32
+                }
+              ],
+              "location": "feature1Class.user_entering_search_product_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 248100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "application display search related items",
+            "match": {
+              "location": "feature1Class.application_display_search_related_items()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "display welcome message",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 70700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "application displaying welcome message",
+            "match": {
+              "location": "feature1Class.application_displaying_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Add products to cart",
+        "description": "",
+        "id": "purchase-products-in-online;add-products-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41099,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on Add to cart",
+            "match": {
+              "location": "feature1Class.user_click_on_Add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The product should added to cart item",
+            "match": {
+              "location": "feature1Class.the_product_should_added_to_cart_item()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addproduct"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "purchase products in Online",
+    "description": "",
+    "id": "purchase-products-in-online",
+    "keyword": "Feature",
+    "uri": "Features/feature1.feature",
+    "tags": []
+  }
+]
